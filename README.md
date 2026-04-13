@@ -17,8 +17,6 @@ NexusFit AI is a high-performance, enterprise-grade health and fitness tracking 
 - **Stateless Authentication:** Implemented JWT-based security to handle user sessions without server-side state.
 - **OTP Verification:** Multi-stage registration process with timed 6-digit verification codes sent via Gmail SMTP.
 - **Password Protection:** Industry-standard password hashing using BCrypt.
-- **CORS Configuration:** Securely configured to interact with the Next.js frontend on `localhost:3000`.
-- **Environment Safety:** All sensitive credentials (DB passwords, SMTP keys) are managed via system environment variables.
 
 ## 🛠️ Setup Instructions
 
@@ -26,3 +24,4 @@ NexusFit AI is a high-performance, enterprise-grade health and fitness tracking 
    ```bash
    git clone <your-backend-repo-url>
    cd nexusfit-backend
+
