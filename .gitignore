@@ -31,3 +31,16 @@ build/
 
 ### VS Code ###
 .vscode/
+
+# Secrets and Environment Variables
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# Spring Boot sensitive config (if you use a local profile)
+src/main/resources/application-local.properties
+
+# MacOS system files
+.DS_Store
